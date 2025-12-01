@@ -1,0 +1,4 @@
+RewriteEngine On
+RewriteBase /matriz/
+# Redirect /matriz/406655 to /matriz/api.php?lofy=406655
+RewriteRule ^(\d+)$ api.php?lofy=$1 [L]
